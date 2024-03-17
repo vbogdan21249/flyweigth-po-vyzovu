@@ -10,7 +10,6 @@ class Rectangle extends GraphicObject {
 
     @Override
     public void draw() {
-        // Метод малювання прямокутника
         System.out.println("Drawing a rectangle from (" + x1 + ", " + y1 + ") to (" + x2 + ", " + y2 + ")");
     }
 }

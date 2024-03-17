@@ -12,7 +12,6 @@ class Triangle extends GraphicObject {
 
     @Override
     public void draw() {
-        // Метод малювання трикутника
         System.out.println("Drawing a triangle with vertices at (" + x1 + ", " + y1 + "), (" + x2 + ", " + y2 + "), and (" + x3 + ", " + y3 + ")");
     }
 }

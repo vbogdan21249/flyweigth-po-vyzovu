@@ -10,7 +10,7 @@ class Line extends GraphicObject {
 
     @Override
     public void draw() {
-        // Метод малювання лінії
+
         System.out.println("Drawing a line from (" + x1 + ", " + y1 + ") to (" + x2 + ", " + y2 + ")");
     }
 }
